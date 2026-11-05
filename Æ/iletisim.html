@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Æsthetic Yiğit YILDIZ kişisel fotoğraf arşivi: konum, Google Haritalar ve HTML iletişim formu.">
+  <meta name="author" content="Yiğit YILDIZ">
+  <title>İletişim | Æsthetic — Yiğit YILDIZ</title>
+</head>
+<body>
+  <header>
+    <p><small>YİĞİT YILDIZ / KİŞİSEL FOTOĞRAF ARŞİVİ</small></p>
+    <h1>Æsthetic<span aria-hidden="true">.</span></h1>
+    <p><em>Görüntünün ardında kalan ayrıntılar.</em></p>
+    <nav aria-label="Ana menü">
+    <p><a href="index.html">Ana Sayfa</a> &nbsp; / &nbsp; <a href="projeler.html">Fotoğraf Arşivi</a> &nbsp; / &nbsp; <a href="iletisim.html">İletişim</a></p>
+  </nav>
+    <hr>
+    <p><small>İLETİŞİM / KONUM / YORUMLAR</small></p>
+  </header>
+  <main id="ana-icerik">
+    <section aria-labelledby="konum-baslik">
+      <h2 id="konum-baslik">İstanbul / Bebek</h2>
+      <p>Projenin konum referansı <strong>Bebek Mahallesi, Beşiktaş / İstanbul</strong> olarak belirlenmiştir. Aşağıdaki harita bu bölgeyi gösterir.</p>
+      <figure>
+        <iframe title="Bebek Mahallesi, Beşiktaş, İstanbul konum haritası" src="https://www.google.com/maps?q=Bebek%20Mahallesi%2C%20Be%C5%9Fikta%C5%9F%2C%20%C4%B0stanbul&amp;output=embed" width="100%" height="360" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        <figcaption><small>Konum: Bebek Mahallesi — Beşiktaş, İstanbul.</small></figcaption>
+      </figure>
+      <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Bebek+Mahallesi+Besiktas+Istanbul" target="_blank" rel="noopener noreferrer">Bebek konumunu Google Haritalar'da aç</a></p>
+    </section>
+    <hr>
+    <section aria-labelledby="form-baslik">
+      <h2 id="form-baslik">İletişim & iş birliği notu</h2>
+      <p>Fotoğraflar, arşiv yaklaşımı veya yeni bir görsel fikir üzerine bir mesaj oluşturmak için aşağıdaki alanları kullanabilirsin.</p>
+      <p><small>Form, HTML bileşenlerini göstermek üzere hazırlanmıştır. Site statik olduğu için gönderilen bilgiler sunucuda saklanmaz ya da bir e-posta adresine iletilmez.</small></p>
+      <form action="" method="post">
+        <fieldset>
+          <legend>Kişisel bilgiler</legend>
+          <p><label for="ad-soyad">Ad Soyad *</label></p>
+          <p><input id="ad-soyad" name="ad_soyad" type="text" placeholder="Adınız ve soyadınız" autocomplete="name" required minlength="2" size="35"></p>
+          <p><label for="eposta">E-posta *</label></p>
+          <p><input id="eposta" name="eposta" type="email" placeholder="ornek@eposta.com" autocomplete="email" required size="35"></p>
+        </fieldset>
+        <fieldset>
+          <legend>Mesajın konusu</legend>
+          <p><label for="konu">İlgilendiğiniz başlık *</label></p>
+          <p><select id="konu" name="konu" required>
+            <option value="">Lütfen bir konu seçin</option>
+            <option value="fotoğraf">Fotoğraf arşivi</option>
+            <option value="mimari">Mimari & mekan</option>
+            <option value="otomobil">Otomobil fotoğrafçılığı</option>
+            <option value="diger">Diğer</option>
+          </select></p>
+          <p>Geri dönüş tercihi:</p>
+          <p><label><input type="radio" name="geri_donus" value="eposta" checked> E-posta</label> &nbsp; <label><input type="radio" name="geri_donus" value="tercih_yok"> Tercih belirtmiyorum</label></p>
+          <p><label for="mesaj">Mesajınız *</label></p>
+          <p><textarea id="mesaj" name="mesaj" rows="6" cols="42" placeholder="Düşüncenizi burada paylaşabilirsiniz..." required minlength="10"></textarea></p>
+          <p><label><input type="checkbox" name="onay" value="evet" required> Bilgilerimin bu örnek form alanında kullanıldığını ve sunucuya kaydedilmeyeceğini okudum. *</label></p>
+          <p><button type="submit">Mesajı gönder</button> &nbsp; <button type="reset">Formu temizle</button></p>
+        </fieldset>
+      </form>
+    </section>
+    <aside aria-labelledby="kimlik-baslik">
+      <hr>
+      <h2 id="kimlik-baslik">Arşiv bilgisi</h2>
+      <dl>
+        <dt>İmza</dt><dd>Æsthetic — Yiğit YILDIZ</dd>
+        <dt>Konum</dt><dd>Bebek Mahallesi, Beşiktaş / İstanbul</dd>
+        <dt>İlgi alanları</dt><dd>Fotoğrafçılık, mimari, otomobiller ve görsel detaylar</dd>
+      </dl>
+      <p><a href="projeler.html">Fotoğraf seçkisini incele</a></p>
+    </aside>
+  </main>
+  <footer>
+    <hr>
+    <p><strong>Æsthetic</strong> — Kişisel görsel arşiv.</p>
+    <p><small>© 2026 Yiğit YILDIZ. Fotoğrafların tüm hakları saklıdır. • Bebek Mahallesi, Beşiktaş / İstanbul</small></p>
+    <p><small>İstanbul Nişantaşı Üniversitesi • Bilgisayar Programcılığı • Web Tasarımı ve Programlama</small></p>
+  </footer>
+</body>
+</html>
